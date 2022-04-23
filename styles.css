@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #0e0e0e;
+}
+
+.view-area {
+    margin: auto;
+    width: 70%;
+    background-color: rgb(246, 245, 245);
+    height: 100vh; 
+    display: flex;
+    
+}
+
+.bg-area {
+    width: 35%;
+    background-image: url("cheese2.jpg");
+    background-size: cover;
+}
+
+.form-area {
+    width: 65%;
+    min-width: 300px;
+}
+
+#form_input {
+    background-color: white;
+}
+
+.form-section {
+    min-width: 300px;
+    height: 33%;
+    padding: 20px;
+    
+}   
+
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(226, 150, 9);
+    color: white;
+    border: orange;
+    border-radius: 15px;
+}
+
+a {
+    color:rgb(226, 150, 9);
+    font-weight:700;
+}
