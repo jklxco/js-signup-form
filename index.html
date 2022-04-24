@@ -12,6 +12,7 @@
         <div class="view-area">
             <div class="bg-area">
                 <!--background-->
+                <div class="cheese-logo">RACH'S CHEESE CLUB</div> 
             </div>
             <div class="form-area">
                 <!--form side-->
@@ -24,35 +25,47 @@
                 
                     </p>
                 </div>
-                <div id="form_input" class="form-section">
-                    <fieldset>
-                        <legend>Let's do this!</legend>
-                        <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" name="first_name">
+                <div id="form-input" class="form-section">
+                    <p>Let's do this!</p>
+                    <form id="form-row">
+                        
+                        <div class="input">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name" placeholder="Turkey">
+                        </div>
 
-                        <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" name="last_name">
-                        
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email">
-                        
-                        <label for="phone">Phone Number</label>
-                        <input type="phone" id="phone" name="phone">
-                    
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
-                    
-                        <label for="confirm_password">Password Confirmation</label>
-                        <input type="password" id="confirm_password" name="confirm_password">
-                    
-                    
-                    
-                    </fieldset>
+                        <div class="input">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" placeholder="Turkleton">
+                        </div>
+
+                        <div class="input">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+
+                        <div class="input">
+                            <label for="phone">Phone Number</label>
+                            <input type="phone" id="phone" name="phone">
+                        </div>
+
+                        <div class="input">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+
+                        <div class="input">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required>
+                        </div>
+
+                   
+                    </form>
                 </div>
-                <div class="form-section">
+                <footer class="form-section">
                     <button type="submit">Create Account</button>
-                    <p>Already have an account? <a>Log in!</a></p>
-                </div>
+                    <p class="text-small">Already have an account? <a>Log in!</a></p>
+                </footer>
             </div>
         </div>
     </div>

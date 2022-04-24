@@ -1,3 +1,7 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'
+    );
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,7 +16,7 @@ body {
 
 .view-area {
     margin: auto;
-    width: 70%;
+    width: 80%;
     background-color: rgb(246, 245, 245);
     height: 100vh; 
     display: flex;
@@ -20,27 +24,50 @@ body {
 }
 
 .bg-area {
-    width: 35%;
+    position: relative;
+    width: 40%;
     background-image: url("cheese2.jpg");
     background-size: cover;
+    
 }
 
 .form-area {
-    width: 65%;
+    width: 60%;
     min-width: 300px;
+    
 }
 
-#form_input {
+.cheese-logo {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    height: auto;
+    margin: 100px 0 0 0;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+}
+
+#form-input {
     background-color: white;
+    height: 40%;
+    padding-top: 20px;
 }
 
 .form-section {
     min-width: 300px;
-    height: 33%;
+    height: 30%;
     padding: 20px;
     
-}   
+} 
 
+#form-row {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 button {
     padding: 10px 20px;
@@ -53,4 +80,39 @@ button {
 a {
     color:rgb(226, 150, 9);
     font-weight:700;
+}
+
+button:hover,
+button:focus {
+    outline: yellow;
+    background: rgb(255, 166, 0);
+}
+
+a:hover {
+    color: orange;
+}
+
+input {
+    width: 150px;
+    margin-right: 20px;
+}
+
+label {
+    font-size: 60%;
+    margin-top: 20px;
+}
+
+div.input {
+    flex-direction: column;
+    display: flex;
+    text-transform: uppercase;
+}
+
+form {
+    max-width: 400px;
+}
+
+.text-small {
+    font-size: 0.8rem;
+    margin-top: 10px;
 }
